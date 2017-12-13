@@ -62,6 +62,10 @@ nav a {
   margin: auto;
 }
 
+#intro h2 {
+  color: #70B977;
+}
+
 #intro {
   height: 500px;
   background-color: rgb(235, 235, 235);
@@ -133,13 +137,16 @@ nav a {
 .leftPresent, .rightPresent {
   width: 50%;
   margin: 10px;
-  
+  color: white;
 }
 
 .mediaImgs {
   flex-direction: row;
-  justify-content: space-between;
   margin: 5px;  
+}
+
+.mediaImgs img {
+  margin: 10px;
 }
 
 .features {
