@@ -62,7 +62,7 @@ nav a {
   margin: auto;
 }
 
-#intro h2 {
+#intro h2, .numStep {
   color: #70B977;
 }
 
@@ -146,10 +146,24 @@ nav a {
 }
 
 .mediaImgs img {
-  margin: 10px;
+  margin: 5px;
 }
 
 .features {
   flex-direction: row;
   align-items: center;
+}
+
+section.gardenContainer .gardens {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+section.gardenContainer .gardens img {
+  margin: 5px;
+}
+
+.media h2, .gardenContainer h2, .rightPresent h2 {
+  margin-top: 10px;
 }
