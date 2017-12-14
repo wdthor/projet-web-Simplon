@@ -167,3 +167,19 @@ section.gardenContainer .gardens img {
 .media h2, .gardenContainer h2, .rightPresent h2 {
   margin-top: 10px;
 }
+
+.testimonialContainer {
+  flex-direction: row;
+  width: 100%;
+  color: white;
+}
+
+section p {
+  text-align: center;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
