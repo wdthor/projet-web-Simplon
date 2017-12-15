@@ -204,3 +204,12 @@ section.testimonials p{
   display: flex;
   justify-content: space-between;
 }
+
+.footerMenu nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footerMenu ul {
+  display: flex;
+}
