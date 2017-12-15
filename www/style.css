@@ -5,6 +5,10 @@
   font-family: arial;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   background-image: url("images/backgroundWood.jpg");
   background-size: cover;
@@ -33,23 +37,23 @@ section {
   margin-bottom: 15px;
 }
 
-nav {
+.mainMenu {
   display: flex;
   justify-content: space-between;
 }
 
-nav ul {
+.mainMenu ul {
   list-style: none;
   display: flex;
   margin-right: -170px;
   font-size: 1.3em;
 }
 
-nav ul li {
+.mainMenu ul li {
   margin: 0 15px; 
 }
 
-nav a {
+.mainMenu a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   padding: 15px 0;
@@ -58,7 +62,7 @@ nav a {
 #main {
   align-items: center;
   height: 100%;
-  width: 80%;
+  width: 76%;
   margin: auto;
 }
 
@@ -79,6 +83,7 @@ nav a {
 
 #introBody {
   flex-direction: row;
+  margin: 10px;
 }
 
 #introBody section {
@@ -86,13 +91,14 @@ nav a {
 }
 
 #introBody article {
-  margin: 20px;
+  margin: 20px 35px;
   padding: 10px;
   flex-basis: 50%;
 }
 
-#introBody p {
+#introBody article p {
   padding-top: 10px;
+  padding-right: 20px;
 }
 
 #introBody article img {
@@ -131,12 +137,16 @@ nav a {
 
 #presentationSections {
   flex-direction: row;
-  width: 100%;
+  width: 95%;
+}
+
+#presentationSections h2{
+  margin-top: 25px;
 }
 
 .leftPresent, .rightPresent {
   width: 50%;
-  margin: 10px;
+  margin: 15px;
   color: white;
 }
 
@@ -164,22 +174,33 @@ section.gardenContainer .gardens img {
   margin: 5px;
 }
 
-.media h2, .gardenContainer h2, .rightPresent h2 {
-  margin-top: 10px;
-}
-
 .testimonialContainer {
   flex-direction: row;
-  width: 100%;
+  width: 95%;
   color: white;
 }
 
-section p {
-  text-align: center;
+.testimonialContainer h2 {
+  margin: 15px;
 }
 
 .testimonials {
   display: flex;
   flex-direction: row;
   color: white;
+  text-align: center;
+}
+
+section.rightPresent .features p {
+   margin: 0 20px 0 10px; 
+}
+
+section.testimonials p{
+  margin: 5px;
+}
+
+.footerMenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
