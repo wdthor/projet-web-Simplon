@@ -17,6 +17,7 @@ a {
 body {
   background-image: url("images/backgroundWood.jpg");
   background-size: cover;
+  
 }
 
 #backgroundImage {
@@ -58,7 +59,7 @@ section {
   margin: 0 15px; 
 }
 
-.mainMenu ul li a:hover {
+.mainMenu ul a:hover {
   color: #555;
 }
 
@@ -81,6 +82,7 @@ section {
 #intro {
   height: 500px;
   background-color: rgb(235, 235, 235);
+  z-index: 1;
 }
 
 #introTitle {
@@ -116,6 +118,7 @@ section {
 #introBody article p {
   padding-top: 10px;
   padding-right: 20px;
+  color: #878c90;;
 }
 
 #introBody article img {
@@ -186,12 +189,12 @@ section {
   align-items: center;
 }
 
-section.gardenContainer .gardens {
+.gardenContainer .gardens {
   flex-direction: row;
   margin: 5px;
 }
 
-section.gardenContainer .gardens img {
+.gardenContainer .gardens img {
   margin: 5px;
 }
 
@@ -212,11 +215,11 @@ section.gardenContainer .gardens img {
   text-align: center;
 }
 
-section.rightPresent .features p {
+.rightPresent .features p {
    margin: 0 20px 0 10px; 
 }
 
-section.testimonials p{
+.testimonials p{
   margin: 5px;
 }
 
@@ -247,7 +250,7 @@ section.testimonials p{
   text-shadow: #333 1px 1px;
 }
 
-.footerMenuList li a:hover {
+.footerMenuList a:hover {
   color: #68ac3c;
 }
 
